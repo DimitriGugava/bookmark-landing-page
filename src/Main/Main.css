@@ -1,0 +1,246 @@
+.mainContainer {
+  height: 5044px;
+  width: 375px;
+  margin: auto;
+}
+.headerBox {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  height: 25px;
+  width: 311px;
+  margin: 40px 32px;
+  gap: 140px;
+}
+
+.bookmarkIconTextWrap {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  height: 25px;
+  width: 149px;
+  gap: 12px;
+}
+
+.bookMarkIcon {
+  height: 25px;
+  width: 25px;
+}
+.menuOptionIcon {
+  height: 15px;
+  width: 18px;
+}
+.monitorImageBox {
+  height: 207px;
+  width: 311px;
+  margin: 132px 72px;
+  background-image: url(../icons//monitorback.svg);
+  background-repeat: no-repeat;
+}
+.monitor {
+  position: absolute;
+  margin-left: -80px;
+  margin-top: -60px;
+}
+
+.browserBox {
+  height: 276px;
+  width: 311px;
+  margin: 48px auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0px;
+}
+.browserHeaderText {
+  height: 80px;
+  width: 311px;
+  font-family: "Rubik";
+  font-size: 30px;
+  font-weight: 500;
+  line-height: 40px;
+  letter-spacing: -0.09375px;
+  text-align: center;
+  color: #242a45;
+}
+.browserNormalText {
+  height: 100px;
+  width: 311px;
+  font-family: "Rubik";
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 25px;
+  letter-spacing: 0px;
+  text-align: center;
+  color: #242a45;
+  mix-blend-mode: normal;
+  opacity: 0.5;
+}
+.browserButtonBox {
+  height: 48px;
+  width: 311px;
+  gap: 14px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.chromeButton {
+  height: 48px;
+  width: 151px;
+  border-radius: 5px;
+  box-shadow: 0px 8px 8px -4px #495dcf33;
+  background: #5267df;
+  box-shadow: 0px 8px 8px -4px rgba(73, 93, 207, 0.20012);
+  border-radius: 5px;
+  font-family: "Rubik";
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 28px;
+  text-align: center;
+  letter-spacing: 0.25px;
+
+  color: #ffffff;
+}
+.chromeButton:hover {
+  cursor: pointer;
+}
+.chromeButton:active {
+  background: #4058dd;
+}
+.firefoxButton {
+  height: 48px;
+  width: 146px;
+  background: #f7f7f7;
+  box-shadow: 0px 8px 8px -4px #495dcf33;
+  font-family: "Rubik";
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 28px;
+  letter-spacing: 0.25px;
+  text-align: center;
+  color: #242a45;
+  mix-blend-mode: normal;
+  opacity: 0.75;
+}
+
+.firefoxButton:hover {
+  cursor: pointer;
+}
+.firefoxButton:active {
+  background: #dedcdc;
+}
+
+.featureBox {
+  height: 152px;
+  width: 311px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 140px 32px;
+}
+
+.featureHeadingText {
+  height: 52px;
+  width: 200px;
+  font-family: "Rubik";
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 52px;
+  letter-spacing: -0.07500000298023224px;
+  text-align: center;
+  color: #242a45;
+}
+
+.featureNormalText {
+  height: 100px;
+  width: 311px;
+  font-family: "Rubik";
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 25px;
+  letter-spacing: 0px;
+  text-align: center;
+  color: #242a45;
+  mix-blend-mode: normal;
+  opacity: 0.5;
+}
+.threeOptionBox {
+  height: 175px;
+  width: 311px;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.line {
+  height: 1px;
+  width: 311px;
+  background: rgba(73, 93, 207, 0.20012);
+  transform: matrix(1, 0, 0, -1, 0, 0);
+}
+.optionText {
+  display: inline-block;
+  position: relative;
+  height: 17px;
+  width: 162px;
+  font-family: "Rubik";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 17px;
+  letter-spacing: 0.533333420753479px;
+  text-align: center;
+  color: #242a45;
+}
+.optionText:hover {
+  cursor: pointer;
+  text-decoration: underline;
+  text-decoration-thickness: 3px;
+  text-decoration-color: #fa5959;
+}
+
+.optionText2 {
+  height: 17px;
+  width: 162px;
+  font-family: "Rubik";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 17px;
+  letter-spacing: 0.533333420753479px;
+  text-align: center;
+  color: #242a45;
+}
+.optionText2:hover {
+  cursor: pointer;
+  text-decoration: underline;
+  text-decoration-thickness: 3px;
+  text-decoration-color: #fa5959;
+}
+.optionText3 {
+  height: 17px;
+  width: 162px;
+  font-family: "Rubik";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 17px;
+  letter-spacing: 0.533333420753479px;
+  text-align: center;
+  color: #242a45;
+}
+.optionText3:hover {
+  cursor: pointer;
+  text-decoration: underline;
+  text-decoration-thickness: 3px;
+  text-decoration-color: #fa5959;
+}
+.monitorImageBox2 {
+  height: 207px;
+  width: 311px;
+  margin: 132px 0px;
+  background-image: url(../icons/monitorback2.svg);
+  background-repeat: no-repeat;
+}
+.monitor2 {
+  position: absolute;
+  margin-left: 40px;
+  margin-top: -60px;
+}
