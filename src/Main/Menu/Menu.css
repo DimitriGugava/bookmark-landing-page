@@ -1,0 +1,71 @@
+.menuBox {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 334px;
+  width: 375px;
+  margin: 10px auto;
+  background: #242a45;
+}
+
+.menuHeaderPart {
+  height: 25px;
+  width: 311px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin: 40px auto;
+  gap: 140px;
+}
+.menuList {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 251px;
+  width: 148px;
+}
+.menuBookmarkPart {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin: 50px auto;
+  gap: 10px;
+  height: 25px;
+  width: 148px;
+}
+.menuBookmarkText {
+  font-family: "Rubik";
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 28px;
+  letter-spacing: 0.25px;
+  text-align: center;
+  color: #ffffff;
+}
+.menuNormalTextBox {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 115px;
+  width: 88px;
+}
+.menuNormalText {
+  height: 17px;
+  width: 87px;
+  font-family: "Rubik";
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 17px;
+  letter-spacing: 1.7307690382003784px;
+  text-align: center;
+  color: #ffffff;
+}
+.menuSocNetworks {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin: 50px auto;
+  gap: 40px;
+  height: 24px;
+  width: 88px;
+}
