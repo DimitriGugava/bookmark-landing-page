@@ -3,7 +3,7 @@ import contactBookmark from "../../icons/contactBookmark.svg";
 import facebook from "../../icons/facebook.svg";
 import twitter from "../../icons/twitter.svg";
 import close from "../../icons/close.svg";
-const Menu = () => {
+const Menu = (props) => {
   return (
     <div className="menuBox">
       <div className="menuHeaderPart">
@@ -11,7 +11,7 @@ const Menu = () => {
           <img src={contactBookmark} className="menuBookmarkIcon" />
           <h2 className="menuBookmarkText">BOOKMARK</h2>
         </div>
-        <img className="closeIcon" src={close} />
+        <img className="closeIcon" src={close} onClick={props.showMenuClick} />
       </div>
       <div className="menuList">
         <div className="menuNormalTextBox">

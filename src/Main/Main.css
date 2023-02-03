@@ -41,6 +41,7 @@
   background-repeat: no-repeat;
   background-position: 90px;
 }
+
 .monitor {
   position: absolute;
   margin-left: 0px;
@@ -250,6 +251,8 @@
   position: absolute;
   margin-left: 40px;
   margin-top: -60px;
+  height: 221px;
+  width: 311px;
 }
 .monitorBox2TextBox {
   height: 352px;
@@ -461,7 +464,9 @@
   width: 16px;
   margin: -35px 290px;
 }
-
+.arrowDown:hover {
+  cursor: pointer;
+}
 .questionText {
   display: flex;
   align-items: center;
@@ -488,6 +493,7 @@
   text-align: left;
   color: #242a45;
 }
+
 .faqLine {
   height: 1px;
   width: 311px;

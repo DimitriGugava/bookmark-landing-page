@@ -2,10 +2,14 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  height: 334px;
+  height: 667px;
   width: 375px;
-  margin: 10px auto;
+  margin: 10px auto !important;
   background: #242a45;
+  mix-blend-mode: normal;
+  opacity: 0.95;
+  backdrop-filter: blur(16.3097px);
+  /* Note: backdrop-filter has minimal browser support */
 }
 
 .menuHeaderPart {
@@ -32,6 +36,9 @@
   gap: 10px;
   height: 25px;
   width: 148px;
+}
+.closeIcon:hover {
+  cursor: pointer;
 }
 .menuBookmarkText {
   font-family: "Rubik";
