@@ -1,13 +1,16 @@
 .menuBox {
+  position: absolute;
   display: flex;
   flex-direction: column;
   align-items: center;
-  height: 667px;
-  width: 375px;
-  margin: 10px auto !important;
+  height: auto;
+  width: 100%;
+  margin: 0px auto !important;
   background: #242a45;
   mix-blend-mode: normal;
   opacity: 0.95;
+  padding-left: 10px;
+
   backdrop-filter: blur(16.3097px);
   /* Note: backdrop-filter has minimal browser support */
 }
@@ -25,7 +28,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  height: 251px;
+  height: 180px;
   width: 148px;
 }
 .menuBookmarkPart {
@@ -53,25 +56,60 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  height: 115px;
-  width: 88px;
+  height: 199px;
+  width: 309px;
+}
+.menuLine {
+  height: 1px;
+  width: 309px;
+  background: #ffffff;
+  mix-blend-mode: normal;
+  opacity: 0.15;
+  transform: matrix(1, 0, 0, -1, 0, 0);
 }
 .menuNormalText {
   height: 17px;
-  width: 87px;
+  width: 120px;
   font-family: "Rubik";
-  font-size: 15px;
+  font-size: 20px;
   font-weight: 400;
   line-height: 17px;
   letter-spacing: 1.7307690382003784px;
   text-align: center;
   color: #ffffff;
 }
+.menuLogin {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  height: 48px !important;
+  width: 308px;
+  margin: 20px auto;
+  border-radius: 5px;
+  background-color: inherit;
+  border: 2px solid #ffffff;
+  font-family: "Rubik";
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 17px;
+  letter-spacing: 2.307692289352417px;
+  text-align: right;
+  color: #ffffff;
+}
+.menuLogin:hover {
+  cursor: pointer;
+}
+.menuLogin:active {
+  background-color: white;
+  color: #242a45;
+  border: 2px solid #242a45;
+  opacity: 0.9;
+}
 .menuSocNetworks {
   display: flex;
   flex-direction: row;
   align-items: center;
-  margin: 50px auto;
+  margin: 150px auto;
   gap: 40px;
   height: 24px;
   width: 88px;

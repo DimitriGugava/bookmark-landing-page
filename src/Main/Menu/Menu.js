@@ -15,14 +15,19 @@ const Menu = (props) => {
       </div>
       <div className="menuList">
         <div className="menuNormalTextBox">
+          <div className="menuLine"></div>
           <p className="menuNormalText">FEATURES</p>
+          <div className="menuLine"></div>
           <p className="menuNormalText">PRICING</p>
+          <div className="menuLine"></div>
           <p className="menuNormalText">CONTACT</p>
+          <div className="menuLine"></div>
         </div>
-        <div className="menuSocNetworks">
-          <img src={facebook} className="menuSocNetIcons" />
-          <img src={twitter} className="menuSocNetIcons" />
-        </div>
+      </div>
+      <button className="menuLogin">LOGIN</button>
+      <div className="menuSocNetworks">
+        <img src={facebook} className="menuSocNetIcons" />
+        <img src={twitter} className="menuSocNetIcons" />
       </div>
     </div>
   );
